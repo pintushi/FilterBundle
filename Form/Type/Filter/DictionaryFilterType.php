@@ -13,7 +13,7 @@ use Symfony\Component\Translation\TranslatorInterface;
 
 class DictionaryFilterType extends AbstractType
 {
-    const NAME = 'oro_type_dictionary_filter';
+    const NAME = 'pintushi_filter_dictionary_filter';
     const TYPE_IN = 1;
     const TYPE_NOT_IN = 2;
     const EQUAL = 3;
@@ -111,8 +111,8 @@ class DictionaryFilterType extends AbstractType
                 'null_value' => null,
                 'class' => '',
                 'operator_choices' => [
-                    $this->translator->trans('oro.filter.form.label_type_in') => self::TYPE_IN,
-                    $this->translator->trans('oro.filter.form.label_type_not_in') => self::TYPE_NOT_IN,
+                    $this->translator->trans('pintushi.filter.form.label_type_in') => self::TYPE_IN,
+                    $this->translator->trans('pintushi.filter.form.label_type_not_in') => self::TYPE_NOT_IN,
                 ],
             ]
         )->setRequired(

@@ -9,7 +9,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class SelectRowFilterType extends AbstractChoiceType
 {
-    const NAME = 'oro_type_selectrow_filter';
+    const NAME = 'pintushi_filter_selectrow_filter';
 
     const NOT_SELECTED_VALUE = 0;
     const SELECTED_VALUE     = 1;
@@ -67,8 +67,8 @@ class SelectRowFilterType extends AbstractChoiceType
                 'field_type' => ChoiceType::class,
                 'field_options' => [
                     'choices' => [
-                        $this->translator->trans('oro.filter.form.label_not_selected') => self::NOT_SELECTED_VALUE,
-                        $this->translator->trans('oro.filter.form.label_selected') => self::SELECTED_VALUE,
+                        $this->translator->trans('pintushi.filter.form.label_not_selected') => self::NOT_SELECTED_VALUE,
+                        $this->translator->trans('pintushi.filter.form.label_selected') => self::SELECTED_VALUE,
                     ],
                 ],
             ]

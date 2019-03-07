@@ -49,8 +49,8 @@ class EnumFilterType extends AbstractMultiChoiceType
                 'class'         => null,
                 'field_options' => $defaultFieldOptions,
                 'operator_choices' => [
-                    $this->translator->trans('oro.filter.form.label_type_in') => self::TYPE_IN,
-                    $this->translator->trans('oro.filter.form.label_type_not_in') => self::TYPE_NOT_IN,
+                    $this->translator->trans('pintushi.filter.form.label_type_in') => self::TYPE_IN,
+                    $this->translator->trans('pintushi.filter.form.label_type_not_in') => self::TYPE_NOT_IN,
                 ],
             ]
         );

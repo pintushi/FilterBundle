@@ -9,7 +9,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class DateRangeFilterType extends AbstractDateFilterType
 {
-    const NAME = 'oro_type_date_range_filter';
+    const NAME = 'pintushi_filter_date_range_filter';
 
     /**
      * {@inheritDoc}

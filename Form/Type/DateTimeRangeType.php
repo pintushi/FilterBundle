@@ -9,7 +9,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class DateTimeRangeType extends AbstractType
 {
-    const NAME = 'oro_type_datetime_range';
+    const NAME = 'pintushi_filter_datetime_range';
 
     /**
      * @var LocaleSettings

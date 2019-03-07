@@ -11,7 +11,7 @@ use Symfony\Component\Translation\TranslatorInterface;
 
 class NumberRangeFilterType extends AbstractType implements NumberRangeFilterTypeInterface
 {
-    const NAME = 'oro_type_number_range_filter';
+    const NAME = 'pintushi_filter_number_range_filter';
 
     /**
      * @var TranslatorInterface
@@ -66,16 +66,16 @@ class NumberRangeFilterType extends AbstractType implements NumberRangeFilterTyp
     public function configureOptions(OptionsResolver $resolver)
     {
         $operatorChoices = [
-            $this->translator->trans('oro.filter.form.label_type_range_between') => self::TYPE_BETWEEN,
-            $this->translator->trans('oro.filter.form.label_type_range_not_between') => self::TYPE_NOT_BETWEEN,
-            $this->translator->trans('oro.filter.form.label_type_range_equals') => self::TYPE_EQUAL,
-            $this->translator->trans('oro.filter.form.label_type_range_not_equals') => self::TYPE_NOT_EQUAL,
-            $this->translator->trans('oro.filter.form.label_type_range_more_than') => self::TYPE_GREATER_THAN,
-            $this->translator->trans('oro.filter.form.label_type_range_less_than') => self::TYPE_LESS_THAN,
-            $this->translator->trans('oro.filter.form.label_type_range_more_equals') => self::TYPE_GREATER_EQUAL,
-            $this->translator->trans('oro.filter.form.label_type_range_less_equals') => self::TYPE_LESS_EQUAL,
-            $this->translator->trans('oro.filter.form.label_type_empty') => FilterUtility::TYPE_EMPTY,
-            $this->translator->trans('oro.filter.form.label_type_not_empty') => FilterUtility::TYPE_NOT_EMPTY,
+            $this->translator->trans('pintushi.filter.form.label_type_range_between') => self::TYPE_BETWEEN,
+            $this->translator->trans('pintushi.filter.form.label_type_range_not_between') => self::TYPE_NOT_BETWEEN,
+            $this->translator->trans('pintushi.filter.form.label_type_range_equals') => self::TYPE_EQUAL,
+            $this->translator->trans('pintushi.filter.form.label_type_range_not_equals') => self::TYPE_NOT_EQUAL,
+            $this->translator->trans('pintushi.filter.form.label_type_range_more_than') => self::TYPE_GREATER_THAN,
+            $this->translator->trans('pintushi.filter.form.label_type_range_less_than') => self::TYPE_LESS_THAN,
+            $this->translator->trans('pintushi.filter.form.label_type_range_more_equals') => self::TYPE_GREATER_EQUAL,
+            $this->translator->trans('pintushi.filter.form.label_type_range_less_equals') => self::TYPE_LESS_EQUAL,
+            $this->translator->trans('pintushi.filter.form.label_type_empty') => FilterUtility::TYPE_EMPTY,
+            $this->translator->trans('pintushi.filter.form.label_type_not_empty') => FilterUtility::TYPE_NOT_EMPTY,
         ];
 
         $resolver->setDefaults([

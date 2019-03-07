@@ -12,7 +12,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class DateRangeType extends AbstractType
 {
-    const NAME = 'oro_type_date_range';
+    const NAME = 'pintushi_filter_date_range';
 
     /**
      * @var LocaleSettings

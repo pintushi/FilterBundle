@@ -109,14 +109,14 @@ class DateModifierProvider implements DateModifierInterface
     public function getDateParts()
     {
         return [
-            self::PART_VALUE   => 'oro.filter.form.label_date_part.' . self::PART_VALUE,
-            self::PART_DOW     => 'oro.filter.form.label_date_part.' . self::PART_DOW,
-            self::PART_WEEK    => 'oro.filter.form.label_date_part.' . self::PART_WEEK,
-            self::PART_DAY     => 'oro.filter.form.label_date_part.' . self::PART_DAY,
-            self::PART_MONTH   => 'oro.filter.form.label_date_part.' . self::PART_MONTH,
-            self::PART_QUARTER => 'oro.filter.form.label_date_part.' . self::PART_QUARTER,
-            self::PART_DOY     => 'oro.filter.form.label_date_part.' . self::PART_DOY,
-            self::PART_YEAR    => 'oro.filter.form.label_date_part.' . self::PART_YEAR
+            self::PART_VALUE   => 'pintushi.filter.form.label_date_part.' . self::PART_VALUE,
+            self::PART_DOW     => 'pintushi.filter.form.label_date_part.' . self::PART_DOW,
+            self::PART_WEEK    => 'pintushi.filter.form.label_date_part.' . self::PART_WEEK,
+            self::PART_DAY     => 'pintushi.filter.form.label_date_part.' . self::PART_DAY,
+            self::PART_MONTH   => 'pintushi.filter.form.label_date_part.' . self::PART_MONTH,
+            self::PART_QUARTER => 'pintushi.filter.form.label_date_part.' . self::PART_QUARTER,
+            self::PART_DOY     => 'pintushi.filter.form.label_date_part.' . self::PART_DOY,
+            self::PART_YEAR    => 'pintushi.filter.form.label_date_part.' . self::PART_YEAR
         ];
     }
 }

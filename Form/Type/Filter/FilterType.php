@@ -13,7 +13,7 @@ use Symfony\Component\Translation\TranslatorInterface;
 
 class FilterType extends AbstractType
 {
-    const NAME = 'oro_type_filter';
+    const NAME = 'pintushi_filter_filter';
 
     /**
      * @var TranslatorInterface

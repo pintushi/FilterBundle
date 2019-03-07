@@ -11,7 +11,7 @@ class ChoiceTreeFilterType extends AbstractType
 {
     const TYPE_CONTAINS     = 1;
     const TYPE_NOT_CONTAINS = 2;
-    const NAME              = 'oro_type_choice_tree_filter';
+    const NAME              = 'pintushi_filter_choice_tree_filter';
 
     /**
      * {@inheritDoc}

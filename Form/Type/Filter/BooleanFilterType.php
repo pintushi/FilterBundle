@@ -8,7 +8,7 @@ class BooleanFilterType extends AbstractChoiceType
 {
     const TYPE_YES = 1;
     const TYPE_NO  = 2;
-    const NAME     = 'oro_type_boolean_filter';
+    const NAME     = 'pintushi_filter_boolean_filter';
 
     /**
      * {@inheritDoc}
@@ -40,8 +40,8 @@ class BooleanFilterType extends AbstractChoiceType
     public function configureOptions(OptionsResolver $resolver)
     {
         $fieldChoices = [
-            $this->translator->trans('oro.filter.form.label_type_yes') => self::TYPE_YES,
-            $this->translator->trans('oro.filter.form.label_type_no') => self::TYPE_NO,
+            $this->translator->trans('pintushi.filter.form.label_type_yes') => self::TYPE_YES,
+            $this->translator->trans('pintushi.filter.form.label_type_no') => self::TYPE_NO,
         ];
 
         $resolver->setDefaults(

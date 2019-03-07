@@ -91,7 +91,7 @@ Validated by TextFilterType on backend and rendered by [Oro.Filter.ChoiceFilter]
 Provides filtering by selected/not selected records
 
 `type: string`
-Validated by [SelectRowFilterType](./filter_form_types.md#oro_type_selectrow) on backend.
+Validated by [SelectRowFilterType](./filter_form_types.md#pintushi_filter_selectrow) on backend.
 
 ### Number and percent filter
 
@@ -101,7 +101,7 @@ Provides filtering by numbers comparison.
 
 `type: number` - integer/decimal filter
 
-Validated by [NumberFilterType](./filter_form_types.md#oro_type_number_filter-form-type) on backend
+Validated by [NumberFilterType](./filter_form_types.md#pintushi_filter_number_filter-form-type) on backend
 and rendered by [Oro.Filter.NumberFilter](./javascript_widgets.md#orofilternumberfilter)
 
 `type: number-range` - integer/decimal filter
@@ -110,7 +110,7 @@ and rendered by [Oro.Filter.NumberFilter](./javascript_widgets.md#orofilternumbe
 
 `type: currency` - currency filter
 
-Validated by [NumberRangeFilterType](./filter_form_types.md#oro_type_number_range_filter-form-type) on backend
+Validated by [NumberRangeFilterType](./filter_form_types.md#pintushi_filter_number_range_filter-form-type) on backend
 and rendered by [Oro.Filter.NumberRangeFilter](./javascript_widgets.md#orofilternumberrangefilter)
 
 ### Boolean filter
@@ -119,7 +119,7 @@ Provides filtering for boolean values.
 
 `type: boolean`
 
-Validated by [BooleanFilterType](./filter_form_types.md#oro_type_boolean_filter-form-type) on backend
+Validated by [BooleanFilterType](./filter_form_types.md#pintushi_filter_boolean_filter-form-type) on backend
 and rendered by [Oro.Filter.ChoiceFilter](./javascript_widgets.md#orofilterchoicefilter) with predefined set of option (yes/no)
 
 ### Choice filter
@@ -128,7 +128,7 @@ Provides filtering data using list of predefined choices
 
 `type: choice`
 
-Validated by [ChoiceFilterType](./filter_form_types.md#oro_type_choice_filter-form-type) on backend
+Validated by [ChoiceFilterType](./filter_form_types.md#pintushi_filter_choice_filter-form-type) on backend
 and rendered by [Oro.Filter.ChoiceFilter](./javascript_widgets.md#orofilterchoicefilter)
 
 ### Entity filter
@@ -137,7 +137,7 @@ Provides filtering data using list of choices that extracted from database.
 
 `type: entity`
 
-Validated by [EntityFilterType](./filter_form_types.md#oro_type_entity_filter-form-type) on backend
+Validated by [EntityFilterType](./filter_form_types.md#pintushi_filter_entity_filter-form-type) on backend
 and rendered by [Oro.Filter.ChoiceFilter](./javascript_widgets.md#orofilterchoicefilter)
 
 **Note**: _`query_builder` option could be passed from yml configuration to `field_options` using [method call link](./../../link.md)._
@@ -148,7 +148,7 @@ Provides filtering data by date values
 
 `type: date`
 
-Validated by [DateRangeFilterType](./filter_form_types.md#oro_type_date_range_filter-form-type)
+Validated by [DateRangeFilterType](./filter_form_types.md#pintushi_filter_date_range_filter-form-type)
 Rendered by [Oro.Filter.DateFilter](./javascript_widgets.md#orofilterdatefilter)
 
 ### DateTime filter
@@ -157,7 +157,7 @@ Provides filtering data by datetime values
 
 `type: datetime`
 
-Validated by [DateTimeRangeFilterType](./filter_form_types.md#oro_type_datetime_range_filter-form-type)
+Validated by [DateTimeRangeFilterType](./filter_form_types.md#pintushi_filter_datetime_range_filter-form-type)
 Rendered by [Oro.Filter.DateTimeFilter](./javascript_widgets.md#orofilterdatetimefilter)
 
 ### DateGrouping filter
@@ -166,7 +166,7 @@ Provides grouping dates using list of predefined choices: Day, Month, Quarter, Y
 
 `type: datetime`
 
-Validated by [DateGroupingFilterType](./filter_form_types.md#oro_type_dage_grouping_filter-form-type) on backend
+Validated by [DateGroupingFilterType](./filter_form_types.md#pintushi_filter_dage_grouping_filter-form-type) on backend
 and rendered by [Oro.Filter.ChoiceFilter](./javascript_widgets.md#orofilterdategroupingfilter)
 
 ### SkipEmptyPeriods filter
@@ -175,7 +175,7 @@ Provides skipping empty data using list of predefined choices: Yes, No
 
 `type: choice`
 
-Validated by [SkipEmptyPeriodsFilterType](./filter_form_types.md#oro_type_skip_empty_periods_filter-form-type) on backend
+Validated by [SkipEmptyPeriodsFilterType](./filter_form_types.md#pintushi_filter_skip_empty_periods_filter-form-type) on backend
 and rendered by [Oro.Filter.ChoiceFilter](./javascript_widgets.md#orofilterskipemptyperiodsfilter)
 
 Customization

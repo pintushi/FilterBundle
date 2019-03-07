@@ -24,73 +24,73 @@ There are next filters form types:
     <th>Short Description</th>
 </tr>
 <tr>
-    <td><a href="#oro_type_filter-form-type">FilterType</a></td>
-    <td>oro_type_filter</td>
+    <td><a href="#pintushi_filter_filter-form-type">FilterType</a></td>
+    <td>pintushi_filter_filter</td>
     <td>Basic type for all filters, declares two children value and type.</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_text_filter-form-type">TextFilterType</a></td>
-    <td>oro_type_text_filter</td>
+    <td><a href="#pintushi_filter_text_filter-form-type">TextFilterType</a></td>
+    <td>pintushi_filter_text_filter</td>
     <td>Represents text filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_number_filter-form-type">NumberFilterType</a></td>
-    <td>oro_type_number_filter</td>
+    <td><a href="#pintushi_filter_number_filter-form-type">NumberFilterType</a></td>
+    <td>pintushi_filter_number_filter</td>
     <td>Represents number filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_number_range_filter-form-type">NumberRangeFilterType</a></td>
-    <td>oro_type_number_range_filter</td>
+    <td><a href="#pintushi_filter_number_range_filter-form-type">NumberRangeFilterType</a></td>
+    <td>pintushi_filter_number_range_filter</td>
     <td>Represents number range filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_choice_filter-form-type">ChoiceFilterType</a></td>
-    <td>oro_type_choice_filter</td>
+    <td><a href="#pintushi_filter_choice_filter-form-type">ChoiceFilterType</a></td>
+    <td>pintushi_filter_choice_filter</td>
     <td>Represents choice filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_entity_filter-form-type">EntityFilterType</a></td>
-    <td>oro_type_entity_filter</td>
+    <td><a href="#pintushi_filter_entity_filter-form-type">EntityFilterType</a></td>
+    <td>pintushi_filter_entity_filter</td>
     <td>Represents entity filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_boolean_filter-form-type">BooleanFilterType</a></td>
-    <td>oro_type_boolean_filter</td>
+    <td><a href="#pintushi_filter_boolean_filter-form-type">BooleanFilterType</a></td>
+    <td>pintushi_filter_boolean_filter</td>
     <td>Represents boolean filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_date_range_filter-form-type">DateRangeFilterType</a></td>
-    <td>oro_type_date_range_filter</td>
+    <td><a href="#pintushi_filter_date_range_filter-form-type">DateRangeFilterType</a></td>
+    <td>pintushi_filter_date_range_filter</td>
     <td>Represents date filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_datetime_range_filter-form-type">DateTimeRangeFilterType</a></td>
-    <td>oro_type_datetime_range_filter</td>
+    <td><a href="#pintushi_filter_datetime_range_filter-form-type">DateTimeRangeFilterType</a></td>
+    <td>pintushi_filter_datetime_range_filter</td>
     <td>Represents date and time filter form</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_date_range-form-type">DateRangeType</a></td>
-    <td>oro_type_date_range</td>
-    <td>This form type is used by oro_type_date_range_filter as field type</td>
+    <td><a href="#pintushi_filter_date_range-form-type">DateRangeType</a></td>
+    <td>pintushi_filter_date_range</td>
+    <td>This form type is used by pintushi_filter_date_range_filter as field type</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_datetime_range-form-type">DateTimeRangeType</a></td>
-    <td>oro_type_datetime_range</td>
-    <td>This form type is used by oro_type_datetime_range_filter as field type</td>
+    <td><a href="#pintushi_filter_datetime_range-form-type">DateTimeRangeType</a></td>
+    <td>pintushi_filter_datetime_range</td>
+    <td>This form type is used by pintushi_filter_datetime_range_filter as field type</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_selectrow">SelectRowFilterType</a></td>
-    <td>oro_type_selectrow_filter</td>
+    <td><a href="#pintushi_filter_selectrow">SelectRowFilterType</a></td>
+    <td>pintushi_filter_selectrow_filter</td>
     <td>This form type is used by grid extension only</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_date_grouping_filter-form-type">DateGroupingFilterType</a></td>
-    <td>oro_type_date_grouping_filter</td>
+    <td><a href="#pintushi_filter_date_grouping_filter-form-type">DateGroupingFilterType</a></td>
+    <td>pintushi_filter_date_grouping_filter</td>
     <td>Represents date grouping filter</td>
 </tr>
 <tr>
-    <td><a href="#oro_type_skip_empty_periods_filter-form-type">SkipEmptyPeriodsFilterType</a></td>
-    <td>oro_type_skip_empty_periods_filter</td>
+    <td><a href="#pintushi_filter_skip_empty_periods_filter-form-type">SkipEmptyPeriodsFilterType</a></td>
+    <td>pintushi_filter_skip_empty_periods_filter</td>
     <td>Represents skip empty periods filter </td>
 </tr>
 </table>
@@ -592,9 +592,9 @@ class MyFilterFormType extends AbstractType
         // Add some form fields
         // ...
         // Add filters
-        $builder->add('name', 'oro_type_text_filter');
-        $builder->add('salary', 'oro_type_number_filter');
-        $builder->add('hobby', 'oro_type_choice_filter', array(
+        $builder->add('name', 'pintushi_filter_text_filter');
+        $builder->add('salary', 'pintushi_filter_number_filter');
+        $builder->add('hobby', 'pintushi_filter_choice_filter', array(
         field_options' => array(
                 'choices' => array(1 => 'Coding', 2 => 'Hiking', 3 => 'Photography'),
                 'multiple' => true

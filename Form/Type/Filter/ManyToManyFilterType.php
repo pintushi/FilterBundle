@@ -9,7 +9,7 @@ use Symfony\Component\Translation\TranslatorInterface;
 
 class ManyToManyFilterType extends AbstractType
 {
-    const NAME = 'oro_type_many_to_many_filter';
+    const NAME = 'pintushi_filter_many_to_many_filter';
 
     /** @var TranslatorInterface */
     protected $translator;
@@ -29,8 +29,8 @@ class ManyToManyFilterType extends AbstractType
     {
         $resolver->setDefaults([
             'operator_choices' => [
-                $this->translator->trans('oro.filter.form.label_type_empty') => FilterUtility::TYPE_EMPTY,
-                $this->translator->trans('oro.filter.form.label_type_not_empty') => FilterUtility::TYPE_NOT_EMPTY,
+                $this->translator->trans('pintushi.filter.form.label_type_empty') => FilterUtility::TYPE_EMPTY,
+                $this->translator->trans('pintushi.filter.form.label_type_not_empty') => FilterUtility::TYPE_NOT_EMPTY,
             ],
         ]);
     }

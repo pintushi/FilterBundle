@@ -4,8 +4,8 @@ namespace Pintushi\Bundle\FilterBundle\Provider;
 
 interface DateModifierInterface
 {
-    const LABEL_VAR_PREFIX  = 'oro.filter.form.label_date_var.';
-    const LABEL_PART_PREFIX = 'oro.filter.form.label_date_part.';
+    const LABEL_VAR_PREFIX  = 'pintushi.filter.form.label_date_var.';
+    const LABEL_PART_PREFIX = 'pintushi.filter.form.label_date_part.';
 
     const VAR_NOW   = 1;
     const VAR_TODAY = 2;
