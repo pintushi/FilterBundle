@@ -4,7 +4,7 @@ namespace Pintushi\Bundle\FilterBundle\Provider\State;
 
 use Pintushi\Bundle\GridBundle\Grid\Common\GridConfiguration;
 use Pintushi\Bundle\GridBundle\Grid\ParameterBag;
-use Pintushi\Bundle\GridBundle\Entity\Manager\GridViewManager;
+use Pintushi\Bundle\GridBundle\Manager\GridViewManager;
 use Pintushi\Bundle\GridBundle\Provider\State\AbstractStateProvider;
 use Pintushi\Bundle\GridBundle\Tools\GridParametersHelper;
 use Pintushi\Bundle\FilterBundle\Grid\Extension\AbstractFilterExtension;
