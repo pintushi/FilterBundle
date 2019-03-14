@@ -6,8 +6,8 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class BooleanFilterType extends AbstractChoiceType
 {
-    const TYPE_YES = 1;
-    const TYPE_NO  = 2;
+    const TYPE_YES = 'yes';
+    const TYPE_NO  = 'no';
     const NAME     = 'pintushi_filter_boolean_filter';
 
     /**

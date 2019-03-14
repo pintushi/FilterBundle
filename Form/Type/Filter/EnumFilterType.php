@@ -12,7 +12,7 @@ use Pintushi\Bundle\EntityBundle\ORM\DoctrineHelper;
 
 class EnumFilterType extends AbstractMultiChoiceType
 {
-    const NAME = 'oro_enum_filter';
+    const NAME = 'pintushi_enum_filter';
     const TYPE_IN = '1';
     const TYPE_NOT_IN = '2';
     const EQUAL = '3';
@@ -162,7 +162,7 @@ class EnumFilterType extends AbstractMultiChoiceType
     {
         $choices = [];
         if (!empty($nullValue)) {
-            $choices[$this->translator->trans('oro.entity_extend.grid.enum.filter.empty')] = $nullValue;
+            $choices[$this->translator->trans('pintushi.entity_extend.grid.enum.filter.empty')] = $nullValue;
         }
 
         if (!empty($enumValueClassName)) {
