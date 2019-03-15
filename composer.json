@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "7.1.*",
-        "symfony/symfony": "^3.4",
+        "symfony/framework-bundle": "^4.0",
         "oro/config": "^1.0@dev",
         "pintushi/grid-bundle": "^1.0@dev",
         "pintushi/security-bundle": "^1.0@dev"

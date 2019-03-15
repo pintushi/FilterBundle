@@ -14,14 +14,6 @@ class ChoiceTreeFilterType extends AbstractType
     const NAME              = 'pintushi_filter_choice_tree_filter';
 
     /**
-     * {@inheritDoc}
-     */
-    public function getName()
-    {
-        return $this->getBlockPrefix();
-    }
-
-    /**
      * {@inheritdoc}
      */
     public function getBlockPrefix()

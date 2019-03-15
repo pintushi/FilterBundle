@@ -101,6 +101,7 @@ class ChoiceTreeFilter extends AbstractFilter
     public function parseData($data)
     {
         $data['value'] = explode(',', $data['value']);
+
         return $data;
     }
 
@@ -119,7 +120,7 @@ class ChoiceTreeFilter extends AbstractFilter
     protected function getAutocompleteUrl()
     {
         $routeName = $this->getOr('autocomplete_url') ?
-            $this->getOr('autocomplete_url') : 'oro_form_autocomplete_search';
+            $this->getOr('autocomplete_url') : 'pintushi_form_autocomplete_search';
 
         return $this->router->generate($routeName);
     }
