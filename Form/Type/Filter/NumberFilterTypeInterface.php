@@ -4,15 +4,15 @@ namespace Pintushi\Bundle\FilterBundle\Form\Type\Filter;
 
 interface NumberFilterTypeInterface
 {
-    const TYPE_GREATER_EQUAL = 1;
-    const TYPE_GREATER_THAN  = 2;
-    const TYPE_EQUAL         = 3;
-    const TYPE_NOT_EQUAL     = 4;
-    const TYPE_LESS_EQUAL    = 5;
-    const TYPE_LESS_THAN     = 6;
+    const TYPE_GREATER_EQUAL = 'gte';
+    const TYPE_GREATER_THAN  = 'gt';
+    const TYPE_EQUAL         = 'equal';
+    const TYPE_NOT_EQUAL     = 'ne';
+    const TYPE_LESS_EQUAL    = 'lte';
+    const TYPE_LESS_THAN     = 'lt';
 
-    const TYPE_IN            = 9; // 7 and 8 are already taken by number range filter
-    const TYPE_NOT_IN        = 10;
+    const TYPE_IN            = 'in';
+    const TYPE_NOT_IN        = 'not_in';
 
     const DATA_INTEGER = 'data_integer';
     const DATA_DECIMAL = 'data_decimal';
