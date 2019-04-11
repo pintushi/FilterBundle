@@ -9,8 +9,8 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class ChoiceFilterType extends AbstractChoiceType
 {
-    const TYPE_CONTAINS     = 1;
-    const TYPE_NOT_CONTAINS = 2;
+    const TYPE_CONTAINS     = 'contains';
+    const TYPE_NOT_CONTAINS = 'not_contains';
     const NAME              = 'pintushi_filter_choice_filter';
 
     /**
